@@ -1,0 +1,16 @@
+.floating-title {
+
+   text-shadow:
+    0 1px 0 rgba(0,0,0,0.6),
+    0 0 12px rgba(154,230,255,0.25),
+    0 0 24px rgba(154,230,255,0.15);
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0) rotate(0deg); }
+  25%  { transform: translateY(-6px) rotate(-0.3deg); }
+  50%  { transform: translateY(-12px) rotate(-0.6deg); }
+  75%  { transform: translateY(-6px) rotate(-0.3deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
