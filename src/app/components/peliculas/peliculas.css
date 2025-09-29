@@ -1,0 +1,10 @@
+.video{
+  opacity:0.4;
+  transition: 5s ease-in-out;
+}
+
+.video:hover{
+  opacity:1
+
+
+}
