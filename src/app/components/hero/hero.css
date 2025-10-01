@@ -1,21 +1,21 @@
-.spell{
-  opacity:0.4;
-  transition:4s ease-in-out;
+.spell {
+  opacity: 0.4;
+  transition: 1s ease-in-out;
 }
 
-.spell:hover{
+.spell:hover {
   opacity: 1
 }
 
 
-.maraunder{
+.maraunder {
   opacity: 0.1;
   transition: 5s ease-in-out;
-  filter:drop-shadow(2px 2px 3px rgb(107, 107, 187))
+  filter: drop-shadow(2px 2px 3px rgb(107, 107, 187))
 }
 
-.maraunder:hover{
-   opacity: 1;
+.maraunder:hover {
+  opacity: 1;
 
-  filter:drop-shadow(2px 5px 13px rgb(74, 74, 239))
+  filter: drop-shadow(2px 5px 13px rgb(74, 74, 239))
 }

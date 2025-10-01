@@ -1,0 +1,12 @@
+.peliImage{
+  opacity: 0.1;
+  filter:grayscale(90%);
+  transition: 1s ease-in-out;
+}
+
+.peliImage:hover{
+  opacity: 1;
+  filter:grayscale(0%);
+  box-shadow:  0.5px 0.5px 0.5px 0.5px rgb(85, 144, 255);
+}
+
