@@ -1,5 +1,5 @@
 .peliImage{
-  opacity: 0.1;
+  opacity: 0.3;
   filter:grayscale(90%);
   transition: 1s ease-in-out;
 }
@@ -10,3 +10,8 @@
   box-shadow:  0.5px 0.5px 0.5px 0.5px rgb(85, 144, 255);
 }
 
+.fondoGranito{
+  background-image: url("/pexels-polina-kovaleva-6788528.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}

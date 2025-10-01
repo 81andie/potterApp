@@ -3,10 +3,13 @@ import { RouterOutlet } from '@angular/router';
 import { Navbar } from "./components/navbar/navbar";
 import { Inicio } from "./components/inicio/inicio";
 import { Footer } from "./components/footer/footer";
+import { Libros } from "./components/libros/libros";
+import { Peliculas } from "./components/peliculas/peliculas";
+import { Hero } from "./components/hero/hero";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Inicio, Footer],
+  imports: [RouterOutlet, Navbar, Inicio, Footer, Libros, Peliculas, Hero],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
