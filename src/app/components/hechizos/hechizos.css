@@ -1,0 +1,42 @@
+.hechizoGranito{
+  opacity: 0.2;
+  filter:grayscale(90%);
+  transition: 1s ease-in-out;
+}
+
+.hechizoGranito:hover{
+  opacity: 1;
+  filter:grayscale(0%);
+  box-shadow:  0.5px 0.5px 0.5px 0.5px rgb(85, 144, 255);
+}
+
+
+.fondoGranito{
+  opacity:20;
+  background-image: url("/pexels-karolina-grabowska-4709421.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  transition: 1s ease-in-out;
+}
+
+.fondoGranito:hover{
+opacity: 1;
+}
+
+
+a{
+  font-size: 0.4rem;
+  line-height: 12px;
+}
+
+.description{
+  font-size:0.5rem;
+  line-height: -9px;
+}
+
+
+
+
+
+
+

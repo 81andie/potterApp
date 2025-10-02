@@ -1,5 +1,5 @@
 .peliImage{
-  opacity: 0.3;
+  opacity: 0.2;
   filter:grayscale(90%);
   transition: 1s ease-in-out;
 }
