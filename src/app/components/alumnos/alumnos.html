@@ -1,1 +1,46 @@
-<p>alumnos works!</p>
+<p class="text-3xl text-center text-blue-500">✨Alumnos✨</p>
+<p class="text-md text-justify p-3">
+
+<div class="w-[70vw] flex justify-center items-center">
+  <h1 class="text-6xl text-center titleSection  subtle-bounce"></h1>
+
+</div>
+
+<div class="flex  md:flex-row flex-wrap justify-center mx-8 md:mx-24 lg:mx-32 gap-3 card">
+
+  @for (spell of estudents; track $index) {
+
+  <div class="flex difuminado flex-col justify-center  text-black p-3" data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom">
+    <span class="text-2xl mt-5 text-center title3 mb-1"></span>
+
+    <div class="flex flex-wrap justify-center gap-1 ">
+      <!-- Primer libro -->
+      <div
+        class="relative w-32 h-32 fondoGranito  rounded-md border-dotted border-2 border-blue-400 mx-auto cursor-pointer shadow-md"
+        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+        <img [src]="spell.image" class="absolute inset-0 w-full h-full object-cover rounded-md filter hechizoGranito" />
+
+
+        <div class="absolute bottom-0 left-0 w-full h-7 bg-blue-50 bg-opacity-75 py-0">
+          <p class="text-blue-600 text-center">
+            <a class="enlace text-xs  font-bold" href="https://amzn.eu/d/ebQT6AL">{{spell.name}}</a>
+          </p>
+
+        </div>
+
+        <div class="absolute bottom-0 left-0 w-full h-7 bg-blue-50 bg-opacity-75 py-0">
+          <p class="text-blue-600 text-center">
+            <a class="enlace text-xl font-bold" href="https://amzn.eu/d/ebQT6AL">{{spell.name}}</a>
+          </p>
+        </div>
+
+        <p class="text-center ">
+          <span class="description font-bold text-blue-50 text-xl"><strong>{{spell.actor}}</strong></span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  }
+

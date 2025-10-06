@@ -1,0 +1,18 @@
+{
+  "menu": {
+    "inici": "Home",
+    "alumnes": "Wizards",
+    "mestres": "Students",
+    "encanteris": "Hogwarts Professors",
+    "troba": "Find anything you want about the world of Harry Potter",
+    "coneix": "discover all the spells",
+    "trobaElsPrincipals": "find the main Hogwarts teachers",
+    "book1": "and the Philosopher's Stone",
+    "book2": "and the Chamber of Secrets",
+    "book3": "and the Prisoner of Azkaban",
+    "book4": "and the Goblet of Fire",
+    "book5": "and the Order of the Phoenix",
+    "book6": "and the Half-Blood Prince",
+    "book7": "and the Deathly Hallows"
+  }
+}

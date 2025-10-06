@@ -1,10 +1,13 @@
-<nav class="text-slate-800">
-  <hr class="h-2 bg-slate-100 opacity-40 bg-gradient-to-r from-stone-300 via-stone-500 to-stone-800 ">
-  <div class=" flex flex-wrap items-center justify-between mx-auto p-2">
+
+
+
+<nav class="bg-black opacity-75 sticky top-0 z-40 p-4">
+
+  <div class=" flex flex-wrap items-center justify-between mx-auto p-0.5">
 
     <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://images.pexels.com/photos/7978834/pexels-photo-7978834.jpeg"
-        class="h-16 w-16 rounded-full object-cover" alt="Flowbite Logo" />
+        class="h-12 w-12 rounded-full object-cover" alt="Flowbite Logo" />
       <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-blue-500">Harry Potter App</span>
     </a>
     <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -25,7 +28,7 @@
         class="flex  flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 text-blue-400">
         <li>
           <a [routerLink]="['/inicio']"
-            class="block py-2 px-3 md:p-0 dark:hover:text-slate-900  rounded-sm md:bg-transparent "
+            class="block py-2 px-3 md:p-0 text-blue-500 rounded-sm md:bg-transparent "
             aria-current="page">Inicio</a>
         </li>
         <li>
@@ -40,8 +43,13 @@
           <a [routerLink]="['/hechizos']"
             class="block py-2 px-3 md:p-0  rounded-sm hover:bg-gray-100 md:hover:bg-transparent">Hechizos</a>
         </li>
+
+
       </ul>
     </div>
+
+
+
   </div>
 
 </nav>

@@ -1,0 +1,18 @@
+{
+  "menu": {
+    "inici": "Inici",
+    "alumnes": "Mags",
+    "mestres": "Estudiants",
+    "encanteris": "Professors de Hogwarts",
+    "troba": "Troba el que vulguis sobre el món de Harry Potter",
+    "coneix": "coneix tot els encanteris",
+    "trobaElsPrincipals": "troba els principals mestres de Hogwarts",
+    "book1": "i la Pedra filosofal",
+    "book2": " i la Cámara Secreta",
+    "book3": " i el Prisioner d'Azkaban",
+    "book4": " i el Calze de Foc",
+    "book5": "i l'ordre del fénix",
+    "book6": "i el misteri del Princep",
+    "book7": "i les relíquies de la mort"
+  }
+}

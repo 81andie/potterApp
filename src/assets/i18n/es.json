@@ -1,0 +1,18 @@
+{
+  "menu": {
+    "inici": "Inicio",
+    "alumnes": "Magos",
+    "mestres": "Estudiantes",
+    "encanteris": "Profesores de Hogwarts",
+    "troba": "Encuentra lo que quieras sobre el mundo de Harry Potter",
+    "coneix": "conoce todos los hechizos",
+    "trobaElsPrincipals": "encuentra a los principales maestros de Hogwarts",
+    "book1": "y la Piedra Filosofal",
+    "book2": "y la Cámara Secreta",
+    "book3": "y el Prisionero de Azkaban",
+    "book4": "y el Cáliz de Fuego",
+    "book5": "y la Orden del Fénix",
+    "book6": "y el Misterio del Príncipe",
+    "book7": "y las Reliquias de la Muerte"
+  }
+}
