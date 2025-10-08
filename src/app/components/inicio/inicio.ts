@@ -7,7 +7,7 @@ import { Alumnos } from "../alumnos/alumnos";
 
 @Component({
   selector: 'app-inicio',
-  imports: [Hero, Peliculas, Libros, Maestros, Alumnos],
+  imports: [Hero, Peliculas, Libros],
   templateUrl: './inicio.html',
   styleUrl: './inicio.css'
 })

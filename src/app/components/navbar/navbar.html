@@ -1,9 +1,7 @@
 
+<nav class="bg-black opacity-75 sticky top-0 z-40 p-0.5">
 
-
-<nav class="bg-black opacity-75 sticky top-0 z-40 p-4">
-
-  <div class=" flex flex-wrap items-center justify-between mx-auto p-0.5">
+  <div class=" flex flex-wrap place-items-center justify-around mx-auto p-0.5">
 
     <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://images.pexels.com/photos/7978834/pexels-photo-7978834.jpeg"
@@ -22,33 +20,31 @@
         </svg>
       </button>
     </div>
-    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+    <div class="items-center justify-end place-content-around gap-8 hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
 
       <ul
-        class="flex  flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 text-blue-400">
+        class="flex  flex-col font-medium  md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 text-blue-400">
         <li>
           <a [routerLink]="['/inicio']"
             class="block py-2 px-3 md:p-0 text-blue-500 rounded-sm md:bg-transparent "
-            aria-current="page">Inicio</a>
+            aria-current="page">Home</a>
         </li>
         <li>
           <a [routerLink]="['/maestros']"
-            class="block py-2 px-3 md:p-0 rounded-sm hover:bg-gray-100 md:hover:bg-transparent">Maestros</a>
+            class="block py-2 px-3 md:p-0 rounded-sm hover:bg-gray-100 md:hover:bg-transparent">Teachers</a>
         </li>
         <li>
           <a [routerLink]="['/alumnos']"
-            class="block py-2 px-3 md:p-0  rounded-sm hover:bg-gray-100 md:hover:bg-transparent">Alumnos</a>
+            class="block py-2 px-3 md:p-0  rounded-sm hover:bg-gray-100 md:hover:bg-transparent">Students</a>
         </li>
         <li>
           <a [routerLink]="['/hechizos']"
-            class="block py-2 px-3 md:p-0  rounded-sm hover:bg-gray-100 md:hover:bg-transparent">Hechizos</a>
+            class="block py-2 px-3 md:p-0 rounded-sm hover:bg-gray-100 md:hover:bg-transparent">Spells</a>
         </li>
 
-
       </ul>
+
     </div>
-
-
 
   </div>
 

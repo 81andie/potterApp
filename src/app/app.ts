@@ -6,11 +6,11 @@ import { Footer } from "./components/footer/footer";
 import { Libros } from "./components/libros/libros";
 import { Peliculas } from "./components/peliculas/peliculas";
 import { Hero } from "./components/hero/hero";
-import { TranslocoModule } from '@jsverse/transloco';
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Inicio, Footer, Libros, Peliculas, Hero, TranslocoModule],
+  imports: [RouterOutlet, Navbar, Footer],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
